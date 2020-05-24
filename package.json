@@ -4,7 +4,7 @@
   "description": "알고리즘 문제를 단위 테스트를 붙여 통과하는것이 목표.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest -o"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,7 @@
     ],
     "globals": {
       "ts-jest": {
-        "enableTsDiagnostics": true
+        "diagnostics": true
       }
     }
   }
